@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jest Tests</title>
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+  </head>
+  <body>
+    <div id="jest"></div>
+    <script src="node_modules/babel-jest/index.js"></script>
+
+
+    <!-- load code you want to test here -->
+    <script src="src/app.js"></script>
+    <script src="src/example.js"></script>
+
+    <!-- load your test files here -->
+    <script src="__tests__/app.test.js"></script>
+    <script src="__test__/example.test.js"></script>
+
+    <script>
+      jest.run();
+    </script>
+  </body>
+</html>
