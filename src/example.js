@@ -2,6 +2,16 @@ let addition = function additionFunction(a,b) {
   return a + b;
 }
 
-//console.log(addition(3,4));
+let subtraction = function subtractionFunction(a,b) {
+  return a - b;
+}
 
-module.exports = addition;
+let multiply = function multiplyFunction(a,b) {
+  return a * b;
+}
+
+module.exports = {
+  addition,
+  subtraction,
+  multiply
+}
