@@ -7,9 +7,14 @@
     "test": "jest --coverage"
   },
   "jest": {
+    "collectCoverage": true,
     "collectCoverageFrom": [
-      "./src/**/*.{js}",
-      "!src/**/*.test.{js}"
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "html",
+      "text",
+      "text-summary"
     ],
     "coverageThreshold": {
       "global": {
@@ -23,9 +28,16 @@
       "node_modules",
       "src"
     ],
-    "testRegex": "__tests__/.*\\.test\\.js$"
+    "moduleFileExtensions": [
+      "js",
+      "node"
+    ],
+    "testRegex": "__tests__/.*\\.test\\.js$",
+    "verbose": true,
+    "coveragePathIgnorePatterns": [
+      "./node_modules/"
+    ]
   },
-
   "author": "James Buczkowski",
   "license": "MIT",
   "dependencies": {
@@ -38,6 +50,10 @@
     "request": "^2.81.0"
   },
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.0.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-react": "^7.1.0",
     "jest": "^20.0.4",
     "jest-cli": "^20.0.4",
     "supertest": "^3.0.0",
