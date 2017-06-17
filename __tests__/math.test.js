@@ -1,9 +1,11 @@
-const {
+'use strict';
+
+import {
   addition,
   subtraction,
   multiply,
   divide
-} = require('../src/math.js');
+} from '../src/math.js';
 
 
 describe('example', function() {

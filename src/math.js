@@ -14,7 +14,8 @@ let divide = function divideValues(a,b) {
   return a / b;
 };
 
-module.exports = {
+
+export {
   addition,
   subtraction,
   multiply,
