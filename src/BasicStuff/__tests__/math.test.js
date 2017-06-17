@@ -4,7 +4,7 @@ import {
   multiply,
   divide,
   squareRoot
-} from '../src/math.js';
+} from '../math.js';
 
 
 describe('math', function() {

@@ -1,11 +1,11 @@
 import {
   reverseString
-} from '../src/text.js';
+} from '../text.js';
 
 
 describe('text', function() {
   it('should exist', function() {
-    const textFile = require('../src/text.js');
+    const textFile = require('../text.js');
     expect(textFile).toBeDefined();
   });
 
