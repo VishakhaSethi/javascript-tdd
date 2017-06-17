@@ -4,7 +4,8 @@ import {
   addition,
   subtraction,
   multiply,
-  divide
+  divide,
+  squareRoot
 } from '../src/math.js';
 
 
@@ -23,5 +24,9 @@ describe('example', function() {
 
   it('divides two values', function() {
     expect(divide(10, 2)).toBe(5);
+  });
+
+  it('finds the square root of the given value', function() {
+    expect(squareRoot(100)).toBe(10);
   });
 });
