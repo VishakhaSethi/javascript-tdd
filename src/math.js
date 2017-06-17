@@ -14,10 +14,14 @@ let divide = function divideValues(a,b) {
   return a / b;
 };
 
+let squareRoot = function squareRootValue(a) {
+  return Math.sqrt(a);
+};
 
 export {
   addition,
   subtraction,
   multiply,
-  divide
+  divide,
+  squareRoot
 };
