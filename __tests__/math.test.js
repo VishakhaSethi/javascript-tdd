@@ -3,7 +3,7 @@ const {
   subtraction,
   multiply,
   divide
-} = require("../src/math.js");
+} = require('../src/math.js');
 
 
 describe('example', function() {

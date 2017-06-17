@@ -4,7 +4,8 @@
   "description": "Node and Plain JS testing ",
   "main": "src/app.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "eslint **/*.js"
   },
   "jest": {
     "collectCoverage": true,
@@ -35,7 +36,8 @@
     "testRegex": "__tests__/.*\\.test\\.js$",
     "verbose": true,
     "coveragePathIgnorePatterns": [
-      "./node_modules/"
+      "./node_modules/",
+      "./coverage/"
     ]
   },
   "author": "James Buczkowski",
