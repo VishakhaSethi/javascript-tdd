@@ -4,42 +4,10 @@
   "description": "Node and Plain JS testing ",
   "main": "src/app.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --coverage --no-cache",
     "lint": "eslint **/*.js"
   },
-  "jest": {
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "src/**/*.js"
-    ],
-    "coverageReporters": [
-      "html",
-      "text",
-      "text-summary"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "statements": 98,
-        "branches": 91,
-        "functions": 98,
-        "lines": 98
-      }
-    },
-    "moduleDirectories": [
-      "node_modules",
-      "src"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "node"
-    ],
-    "testRegex": "__tests__/.*\\.test\\.js$",
-    "verbose": true,
-    "coveragePathIgnorePatterns": [
-      "./node_modules/",
-      "./coverage/"
-    ]
-  },
+
   "author": "James Buczkowski",
   "license": "MIT",
   "dependencies": {
