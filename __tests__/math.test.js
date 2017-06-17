@@ -8,7 +8,11 @@ import {
 } from '../src/math.js';
 
 
-describe('example', function() {
+describe('math', function() {
+  it('addition function should exist', function() {
+    expect(addition()).toBeDefined();
+  });
+
   it('finds the sum of two values', function() {
     expect(addition(1, 2)).toBe(3);
   });
