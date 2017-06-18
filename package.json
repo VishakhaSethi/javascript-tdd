@@ -4,8 +4,12 @@
   "description": "Node and Plain JS testing ",
   "main": "src/app.js",
   "scripts": {
+    "start": "nodemon",
     "test": "jest --coverage --no-cache",
     "lint": "eslint **/*.js"
+  },
+  "engines": {
+    "node": ">= 6"
   },
   "jest": {
     "collectCoverage": true,
