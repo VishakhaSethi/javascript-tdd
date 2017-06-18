@@ -11,7 +11,7 @@ To Run
 	> git clone https://github.com/jslnriot/javascript-tdd.git
 	> cd javascript-tdd
 	> yarn  (or npm install)
-	> yarn test (to run the test suite)
+	> yarn test OR npm test (to run the test suite)
 ```     
 
 Any ideas for tests to add contact on twitter   
