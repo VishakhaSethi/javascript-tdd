@@ -1,8 +1,0 @@
-const getPosts = () => {
-
-};
-
-
-export {
-  getPosts
-};
